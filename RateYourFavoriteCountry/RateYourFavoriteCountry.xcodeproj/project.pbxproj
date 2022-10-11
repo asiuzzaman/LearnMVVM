@@ -17,6 +17,7 @@
 		153DAFD628F603AC00C6555A /* RateYourFavoriteCountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD528F603AC00C6555A /* RateYourFavoriteCountryUITests.swift */; };
 		153DAFD828F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */; };
 		153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFE928F608E900C6555A /* TabBarController.swift */; };
+		153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFEB28F60A5500C6555A /* NavigationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		153DAFD528F603AC00C6555A /* RateYourFavoriteCountryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITests.swift; sourceTree = "<group>"; };
 		153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		153DAFE928F608E900C6555A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		153DAFEB28F60A5500C6555A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				153DAFBA28F603AA00C6555A /* Main.storyboard */,
 				153DAFE928F608E900C6555A /* TabBarController.swift */,
+				153DAFEB28F60A5500C6555A /* NavigationController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 			files = (
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
 				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
+				153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */,
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
 				153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */,
 			);
