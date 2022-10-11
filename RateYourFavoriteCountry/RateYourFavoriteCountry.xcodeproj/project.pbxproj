@@ -16,6 +16,7 @@
 		153DAFCC28F603AC00C6555A /* RateYourFavoriteCountryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFCB28F603AC00C6555A /* RateYourFavoriteCountryTests.swift */; };
 		153DAFD628F603AC00C6555A /* RateYourFavoriteCountryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD528F603AC00C6555A /* RateYourFavoriteCountryUITests.swift */; };
 		153DAFD828F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */; };
+		153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFE928F608E900C6555A /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		153DAFD128F603AC00C6555A /* RateYourFavoriteCountryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RateYourFavoriteCountryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		153DAFD528F603AC00C6555A /* RateYourFavoriteCountryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITests.swift; sourceTree = "<group>"; };
 		153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		153DAFE928F608E900C6555A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +101,11 @@
 		153DAFB328F603AA00C6555A /* RateYourFavoriteCountry */ = {
 			isa = PBXGroup;
 			children = (
+				153DAFE528F6080500C6555A /* Backend */,
+				153DAFE428F607DA00C6555A /* UI */,
 				153DAFB428F603AA00C6555A /* AppDelegate.swift */,
 				153DAFB628F603AA00C6555A /* SceneDelegate.swift */,
 				153DAFB828F603AA00C6555A /* ViewController.swift */,
-				153DAFBA28F603AA00C6555A /* Main.storyboard */,
 				153DAFBD28F603AC00C6555A /* Assets.xcassets */,
 				153DAFBF28F603AC00C6555A /* LaunchScreen.storyboard */,
 				153DAFC228F603AC00C6555A /* Info.plist */,
@@ -125,6 +128,30 @@
 				153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */,
 			);
 			path = RateYourFavoriteCountryUITests;
+			sourceTree = "<group>";
+		};
+		153DAFE428F607DA00C6555A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				153DAFE628F6081A00C6555A /* Main */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		153DAFE528F6080500C6555A /* Backend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Backend;
+			sourceTree = "<group>";
+		};
+		153DAFE628F6081A00C6555A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				153DAFBA28F603AA00C6555A /* Main.storyboard */,
+				153DAFE928F608E900C6555A /* TabBarController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
+				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
 				153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */,
 			);
