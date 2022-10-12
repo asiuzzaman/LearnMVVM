@@ -12,12 +12,27 @@ final class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupTabBar()
-        //setupViewControllers()
+        setupViewControllers()
     }
 }
 
 private extension TabBarController {
     
+    var favoriteViewController: UIViewController {
+        let viewController = FavoritesViewControllers.makeViewController() ?? UIViewController()
+        viewController.tabBarItem = UITabBarItem(title: "Favorites", image: nil, tag: 0)
+        return viewController
+    }
+    
+    var ratingViewController: UIViewController {
+        let viewController = RatingViewControllers.makeViewController() ?? UIViewController()
+        viewController.tabBarItem = UITabBarItem(title: "Vote", image: nil, tag: 1)
+        return viewController
+    }
+    
+    func setupViewControllers() {
+        viewControllers = [ favoriteViewController, ratingViewController ]
+    }
     
     func setupTabBar() {
         let appearance = UITabBarAppearance()
