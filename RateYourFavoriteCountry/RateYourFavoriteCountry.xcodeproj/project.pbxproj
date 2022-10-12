@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532627E28F741C80048277A /* FavoritesViewControllers.swift */; };
 		1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532628128F741FE0048277A /* RatingViewControllers.swift */; };
+		1532628428F74ADD0048277A /* Extension+UIKIT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1532628328F74ADD0048277A /* Extension+UIKIT.swift */; };
 		153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFB428F603AA00C6555A /* AppDelegate.swift */; };
 		153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFB628F603AA00C6555A /* SceneDelegate.swift */; };
 		153DAFB928F603AA00C6555A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFB828F603AA00C6555A /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		1532627E28F741C80048277A /* FavoritesViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewControllers.swift; sourceTree = "<group>"; };
 		1532628128F741FE0048277A /* RatingViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewControllers.swift; sourceTree = "<group>"; };
+		1532628328F74ADD0048277A /* Extension+UIKIT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIKIT.swift"; sourceTree = "<group>"; };
 		153DAFB128F603AA00C6555A /* RateYourFavoriteCountry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RateYourFavoriteCountry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		153DAFB428F603AA00C6555A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		153DAFB628F603AA00C6555A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				1532628028F741D50048277A /* Rating */,
 				1532627D28F741890048277A /* Favorite */,
 				153DAFE628F6081A00C6555A /* Main */,
+				1532628328F74ADD0048277A /* Extension+UIKIT.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
 				1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */,
 				1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */,
+				1532628428F74ADD0048277A /* Extension+UIKIT.swift in Sources */,
 				153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

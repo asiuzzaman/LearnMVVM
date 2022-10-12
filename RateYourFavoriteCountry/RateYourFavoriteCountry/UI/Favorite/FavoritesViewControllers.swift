@@ -18,4 +18,25 @@ final class FavoritesViewControllers: UIViewController {
         return favoritesViewController
             
     }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        prepareView()
+        prepareCollectionView()
+        
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        parent?.navigationItem.title = "Favorites"
+    }
+}
+
+
+private extension FavoritesViewControllers {
+    func prepareView(){
+        view.backgroundColor = UIColor(hexString: "#EFEFF4", alpha: 1.0)
+    }
+    func prepareCollectionView() {
+        
+    }
 }
