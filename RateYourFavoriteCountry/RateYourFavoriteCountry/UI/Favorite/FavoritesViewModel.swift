@@ -62,7 +62,7 @@ extension FavoritesViewModel: FavoritesViewModelDelegate {
     }
     
     func reloadIconData() {
-        
+        presentableIcons = iconManager.topFavoriteIcons(first: 10)
     }
     
     var numberOfSection: Int { 1 }
