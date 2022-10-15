@@ -8,10 +8,15 @@
 import UIKit
 
 final class FavoritesViewControllers: UIViewController {
+    
+    
+    @IBOutlet weak var favoritesCollectionView: UICollectionView!
+    
     static func makeViewController() -> FavoritesViewControllers? {
         let viewController = UIStoryboard(name: "Favorites", bundle: .main)
             .instantiateViewController(withIdentifier: "FavoritesViewControllers")
         guard let favoritesViewController = viewController as? FavoritesViewControllers else {
+            print("Favorites view controller is nil")
             return nil
         }
         // need to initiate viewmodel
