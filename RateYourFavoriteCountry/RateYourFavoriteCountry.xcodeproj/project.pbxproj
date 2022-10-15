@@ -21,6 +21,7 @@
 		153DAFD828F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */; };
 		153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFE928F608E900C6555A /* TabBarController.swift */; };
 		153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFEB28F60A5500C6555A /* NavigationController.swift */; };
+		1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */; };
 		15C8534028F898A0001D70FE /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C8533F28F898A0001D70FE /* Favorites.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +61,7 @@
 		153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		153DAFE928F608E900C6555A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		153DAFEB28F60A5500C6555A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		15C8533F28F898A0001D70FE /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			children = (
 				1532627E28F741C80048277A /* FavoritesViewControllers.swift */,
 				15C8533F28F898A0001D70FE /* Favorites.storyboard */,
+				1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */,
 			);
 			path = Favorite;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
 				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
 				153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */,
+				1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */,
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
 				1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */,
 				1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */,
