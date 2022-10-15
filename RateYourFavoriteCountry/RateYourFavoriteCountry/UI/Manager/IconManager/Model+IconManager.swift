@@ -8,7 +8,7 @@
 import UIKit
 
 protocol IconManagement: AnyObject {
-    var totalIcons: Int { get }
+    var totalIconsCount: Int { get }
     var allIcons: [Icon] { get }
     
     func topFavoriteIcons(first count: Int) -> [Icon]

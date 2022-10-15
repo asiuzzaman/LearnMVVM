@@ -25,7 +25,7 @@ final class IconManager {
 }
 
 extension IconManager: IconManagement {
-    var totalIcons: Int {
+    var totalIconsCount: Int {
         return iconCollection.count
     }
     
