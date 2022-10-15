@@ -26,23 +26,35 @@ final class IconManager {
 
 extension IconManager: IconManagement {
     var totalIcons: Int {
-        <#code#>
+        return iconCollection.count
     }
     
     var allIcons: [Icon] {
-        <#code#>
+        iconCollection
     }
     
     func topFavoriteIcons(first count: Int) -> [Icon] {
-        <#code#>
+        
+        let shortedData = iconCollection.sorted { icon1, icon2
+            in
+            let firstRating = ratingCollection[icon1]?.rawValue ?? 0
+            let secondRating = ratingCollection[icon2]?.rawValue ?? 0
+            return firstRating > secondRating
+        }
+        
+        if shortedData.count > count {
+            return Array(shortedData[..<count])
+        } else {
+            return shortedData
+        }
     }
     
     func vote(icon: Icon, rating: Icon.Rating) {
-        <#code#>
+        ratingCollection[icon] = rating
     }
     
     func rating(icon: Icon) -> Icon.Rating {
-        <#code#>
+        return ratingCollection[icon] ?? .veryBad
     }
     
     
