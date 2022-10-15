@@ -16,7 +16,7 @@ protocol IconManagement: AnyObject {
     func rating(icon: Icon) -> Icon.Rating
 }
 
-struct Icon {
+struct Icon: Equatable , Hashable {
     let name: String
     let url: URL?
     let image: UIImage?
@@ -42,6 +42,18 @@ struct Icon {
 extension Icon {
     enum Rating: Int {
         case veryBad = 1, bad, ok, good, veryGood
+    }
+}
+
+extension Icon.Rating {
+    var label: String {
+        switch self {
+        case .veryBad: return "Very Bad"
+        case .bad: return "Bad"
+        case .ok: return "OK"
+        case .good: return "Good"
+        case .veryGood: return "Very Good"
+        }
     }
 }
 

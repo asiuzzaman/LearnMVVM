@@ -33,23 +33,23 @@ final class FavoritesViewModel {
 
 extension FavoritesViewModel: FavoritesViewModelDelegate {
     func numberOfItem(in section: Int) -> Int {
-        <#code#>
+        
     }
     
     func sectionInset(for section: Int) -> UIEdgeInsets {
-        <#code#>
+        
     }
     
     var spaceBetweenItems: CGFloat {
-        <#code#>
+        
     }
     
     func sizeForCell(availableWidth width: CGFloat) -> CGSize {
-        <#code#>
+        
     }
     
     func reloadIconData() {
-        <#code#>
+        
     }
     
     var numberOfSection: Int { 1 }
