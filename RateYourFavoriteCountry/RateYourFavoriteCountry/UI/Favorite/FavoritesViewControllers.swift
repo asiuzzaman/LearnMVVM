@@ -9,7 +9,7 @@ import UIKit
 
 final class FavoritesViewControllers: UIViewController {
     
-    
+    private var viewModel: FavoritesViewModelDelegate!
     @IBOutlet weak var favoritesCollectionView: UICollectionView!
     
     static func makeViewController() -> FavoritesViewControllers? {
@@ -20,6 +20,7 @@ final class FavoritesViewControllers: UIViewController {
             return nil
         }
         // need to initiate viewmodel
+        favoritesViewController.viewModel = FavoritesViewModel()
         return favoritesViewController
             
     }
