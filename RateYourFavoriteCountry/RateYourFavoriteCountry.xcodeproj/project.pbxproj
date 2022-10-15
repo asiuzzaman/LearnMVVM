@@ -22,6 +22,7 @@
 		153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFE928F608E900C6555A /* TabBarController.swift */; };
 		153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFEB28F60A5500C6555A /* NavigationController.swift */; };
 		1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */; };
+		1546E21228FACA6A00960BE8 /* Model+IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21128FACA6A00960BE8 /* Model+IconManager.swift */; };
 		15C8534028F898A0001D70FE /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C8533F28F898A0001D70FE /* Favorites.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		153DAFE928F608E900C6555A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		153DAFEB28F60A5500C6555A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
+		1546E21128FACA6A00960BE8 /* Model+IconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+IconManager.swift"; sourceTree = "<group>"; };
 		15C8533F28F898A0001D70FE /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 		153DAFE428F607DA00C6555A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1546E20F28FACA2B00960BE8 /* Manager */,
 				1532628028F741D50048277A /* Rating */,
 				1532627D28F741890048277A /* Favorite */,
 				153DAFE628F6081A00C6555A /* Main */,
@@ -186,6 +189,22 @@
 				153DAFEB28F60A5500C6555A /* NavigationController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		1546E20F28FACA2B00960BE8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				1546E21028FACA3400960BE8 /* IconManager */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		1546E21028FACA3400960BE8 /* IconManager */ = {
+			isa = PBXGroup;
+			children = (
+				1546E21128FACA6A00960BE8 /* Model+IconManager.swift */,
+			);
+			path = IconManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +341,7 @@
 			files = (
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
 				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
+				1546E21228FACA6A00960BE8 /* Model+IconManager.swift in Sources */,
 				153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */,
 				1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */,
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
