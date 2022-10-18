@@ -10,7 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FavoritesIconCell" customModule="RateYourFavoriteCountry" customModuleProvider="target">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FavoritesIconCell" customModule="RateYourFavoriteCountry">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -62,6 +62,12 @@
                 <constraint firstItem="QTA-CL-Gzh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Uxq-hw-Wpm"/>
                 <constraint firstAttribute="trailing" secondItem="QTA-CL-Gzh" secondAttribute="trailing" id="fTg-zO-LkD"/>
             </constraints>
+            <connections>
+                <outlet property="UIviewholder" destination="QTA-CL-Gzh" id="U7R-pd-RDT"/>
+                <outlet property="iconImageView" destination="qNi-Yc-VUZ" id="8bg-ap-bHC"/>
+                <outlet property="imageLabel" destination="QiB-PO-oAV" id="D5t-tQ-F0Z"/>
+                <outlet property="ratingCollectionView" destination="7wN-1v-sUx" id="I5V-cX-tla"/>
+            </connections>
             <point key="canvasLocation" x="64.615384615384613" y="20.616113744075829"/>
         </collectionViewCell>
     </objects>

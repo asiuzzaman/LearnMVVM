@@ -98,6 +98,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1508C27A28FF3B1400EE3BC8 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
 		1532627D28F741890048277A /* Favorite */ = {
 			isa = PBXGroup;
 			children = (
@@ -172,6 +179,7 @@
 		153DAFE428F607DA00C6555A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1508C27A28FF3B1400EE3BC8 /* Details */,
 				1546E20F28FACA2B00960BE8 /* Manager */,
 				1532628028F741D50048277A /* Rating */,
 				1532627D28F741890048277A /* Favorite */,
