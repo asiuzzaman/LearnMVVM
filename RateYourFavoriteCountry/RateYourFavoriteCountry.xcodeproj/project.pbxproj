@@ -26,6 +26,9 @@
 		1546E21428FAD5A400960BE8 /* IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21328FAD5A400960BE8 /* IconManager.swift */; };
 		1546E21A28FB2CDF00960BE8 /* FavoritesIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21828FB2CDF00960BE8 /* FavoritesIconCell.swift */; };
 		1546E21B28FB2CDF00960BE8 /* FavoritesIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546E21928FB2CDF00960BE8 /* FavoritesIconCell.xib */; };
+		1573676429085EEA00C3CBDA /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1573676229085EEA00C3CBDA /* DetailsViewController.swift */; };
+		1573676529085EEA00C3CBDA /* DetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1573676329085EEA00C3CBDA /* DetailsViewController.xib */; };
+		157367682908600F00C3CBDA /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157367672908600F00C3CBDA /* DetailsViewModel.swift */; };
 		15C8534028F898A0001D70FE /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C8533F28F898A0001D70FE /* Favorites.storyboard */; };
 		15D15E9C29084C76006A1E24 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D15E9A29084C76006A1E24 /* IconCell.swift */; };
 		15D15E9D29084C76006A1E24 /* IconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D15E9B29084C76006A1E24 /* IconCell.xib */; };
@@ -72,6 +75,9 @@
 		1546E21328FAD5A400960BE8 /* IconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconManager.swift; sourceTree = "<group>"; };
 		1546E21828FB2CDF00960BE8 /* FavoritesIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesIconCell.swift; sourceTree = "<group>"; };
 		1546E21928FB2CDF00960BE8 /* FavoritesIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesIconCell.xib; sourceTree = "<group>"; };
+		1573676229085EEA00C3CBDA /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		1573676329085EEA00C3CBDA /* DetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsViewController.xib; sourceTree = "<group>"; };
+		157367672908600F00C3CBDA /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		15C8533F28F898A0001D70FE /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
 		15D15E9A29084C76006A1E24 /* IconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
 		15D15E9B29084C76006A1E24 /* IconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
@@ -106,6 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				15D15E9929084C30006A1E24 /* view */,
+				1573676229085EEA00C3CBDA /* DetailsViewController.swift */,
+				1573676329085EEA00C3CBDA /* DetailsViewController.xib */,
+				157367672908600F00C3CBDA /* DetailsViewModel.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -350,6 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1573676529085EEA00C3CBDA /* DetailsViewController.xib in Resources */,
 				15D15E9D29084C76006A1E24 /* IconCell.xib in Resources */,
 				1546E21B28FB2CDF00960BE8 /* FavoritesIconCell.xib in Resources */,
 				153DAFC128F603AC00C6555A /* LaunchScreen.storyboard in Resources */,
@@ -382,6 +392,7 @@
 			files = (
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
 				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
+				157367682908600F00C3CBDA /* DetailsViewModel.swift in Sources */,
 				1546E21A28FB2CDF00960BE8 /* FavoritesIconCell.swift in Sources */,
 				1546E21228FACA6A00960BE8 /* Model+IconManager.swift in Sources */,
 				153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */,
@@ -391,6 +402,7 @@
 				1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */,
 				1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */,
 				1532628428F74ADD0048277A /* Extension+UIKIT.swift in Sources */,
+				1573676429085EEA00C3CBDA /* DetailsViewController.swift in Sources */,
 				1546E21428FAD5A400960BE8 /* IconManager.swift in Sources */,
 				153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */,
 			);
