@@ -27,6 +27,8 @@
 		1546E21A28FB2CDF00960BE8 /* FavoritesIconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21828FB2CDF00960BE8 /* FavoritesIconCell.swift */; };
 		1546E21B28FB2CDF00960BE8 /* FavoritesIconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1546E21928FB2CDF00960BE8 /* FavoritesIconCell.xib */; };
 		15C8534028F898A0001D70FE /* Favorites.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C8533F28F898A0001D70FE /* Favorites.storyboard */; };
+		15D15E9C29084C76006A1E24 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D15E9A29084C76006A1E24 /* IconCell.swift */; };
+		15D15E9D29084C76006A1E24 /* IconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D15E9B29084C76006A1E24 /* IconCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,8 @@
 		1546E21828FB2CDF00960BE8 /* FavoritesIconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesIconCell.swift; sourceTree = "<group>"; };
 		1546E21928FB2CDF00960BE8 /* FavoritesIconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesIconCell.xib; sourceTree = "<group>"; };
 		15C8533F28F898A0001D70FE /* Favorites.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorites.storyboard; sourceTree = "<group>"; };
+		15D15E9A29084C76006A1E24 /* IconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
+		15D15E9B29084C76006A1E24 /* IconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		1508C27A28FF3B1400EE3BC8 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				15D15E9929084C30006A1E24 /* view */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -232,6 +237,15 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		15D15E9929084C30006A1E24 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15D15E9A29084C76006A1E24 /* IconCell.swift */,
+				15D15E9B29084C76006A1E24 /* IconCell.xib */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -336,6 +350,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15D15E9D29084C76006A1E24 /* IconCell.xib in Resources */,
 				1546E21B28FB2CDF00960BE8 /* FavoritesIconCell.xib in Resources */,
 				153DAFC128F603AC00C6555A /* LaunchScreen.storyboard in Resources */,
 				153DAFBE28F603AC00C6555A /* Assets.xcassets in Resources */,
@@ -372,6 +387,7 @@
 				153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */,
 				1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */,
 				153DAFB528F603AA00C6555A /* AppDelegate.swift in Sources */,
+				15D15E9C29084C76006A1E24 /* IconCell.swift in Sources */,
 				1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */,
 				1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */,
 				1532628428F74ADD0048277A /* Extension+UIKIT.swift in Sources */,
