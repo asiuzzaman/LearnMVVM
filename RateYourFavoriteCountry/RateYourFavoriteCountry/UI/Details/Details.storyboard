@@ -76,6 +76,13 @@
                             <constraint firstItem="g7H-z3-YS1" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="150" id="rWt-ip-iR6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="iconCollectionView" destination="1i1-QS-2Wz" id="cC9-je-lLe"/>
+                        <outlet property="imageView" destination="Mxk-ti-tUM" id="FUM-sl-LJI"/>
+                        <outlet property="slider" destination="TN2-sz-oWt" id="9Rn-CN-kzF"/>
+                        <outlet property="uiLabel" destination="vGn-zM-g6k" id="9xZ-dM-GYF"/>
+                        <outlet property="viewHolder" destination="g7H-z3-YS1" id="uqW-UQ-Mmm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
