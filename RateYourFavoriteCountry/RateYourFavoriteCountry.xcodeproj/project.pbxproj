@@ -21,6 +21,8 @@
 		153DAFD828F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */; };
 		153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFE928F608E900C6555A /* TabBarController.swift */; };
 		153DAFEC28F60A5500C6555A /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153DAFEB28F60A5500C6555A /* NavigationController.swift */; };
+		15440B4A2914550C000960ED /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15440B482914550C000960ED /* RatingTableViewCell.swift */; };
+		15440B4B2914550C000960ED /* RatingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15440B492914550C000960ED /* RatingTableViewCell.xib */; };
 		1546E20928FABD8F00960BE8 /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */; };
 		1546E21228FACA6A00960BE8 /* Model+IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21128FACA6A00960BE8 /* Model+IconManager.swift */; };
 		1546E21428FAD5A400960BE8 /* IconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1546E21328FAD5A400960BE8 /* IconManager.swift */; };
@@ -32,6 +34,8 @@
 		15D15E9C29084C76006A1E24 /* IconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D15E9A29084C76006A1E24 /* IconCell.swift */; };
 		15D15E9D29084C76006A1E24 /* IconCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15D15E9B29084C76006A1E24 /* IconCell.xib */; };
 		15E772F8290D98D800AEE370 /* Details.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E772F7290D98D800AEE370 /* Details.storyboard */; };
+		15E772FA290DC25B00AEE370 /* RatingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E772F9290DC25B00AEE370 /* RatingViewModel.swift */; };
+		15E772FC290DC29F00AEE370 /* Rating.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E772FB290DC29F00AEE370 /* Rating.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,8 @@
 		153DAFD728F603AC00C6555A /* RateYourFavoriteCountryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RateYourFavoriteCountryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		153DAFE928F608E900C6555A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		153DAFEB28F60A5500C6555A /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		15440B482914550C000960ED /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		15440B492914550C000960ED /* RatingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RatingTableViewCell.xib; sourceTree = "<group>"; };
 		1546E20828FABD8F00960BE8 /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		1546E21128FACA6A00960BE8 /* Model+IconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Model+IconManager.swift"; sourceTree = "<group>"; };
 		1546E21328FAD5A400960BE8 /* IconManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconManager.swift; sourceTree = "<group>"; };
@@ -81,6 +87,8 @@
 		15D15E9A29084C76006A1E24 /* IconCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconCell.swift; sourceTree = "<group>"; };
 		15D15E9B29084C76006A1E24 /* IconCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconCell.xib; sourceTree = "<group>"; };
 		15E772F7290D98D800AEE370 /* Details.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Details.storyboard; sourceTree = "<group>"; };
+		15E772F9290DC25B00AEE370 /* RatingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewModel.swift; sourceTree = "<group>"; };
+		15E772FB290DC29F00AEE370 /* Rating.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Rating.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,7 +141,10 @@
 		1532628028F741D50048277A /* Rating */ = {
 			isa = PBXGroup;
 			children = (
+				15440B4729145485000960ED /* view */,
 				1532628128F741FE0048277A /* RatingViewControllers.swift */,
+				15E772F9290DC25B00AEE370 /* RatingViewModel.swift */,
+				15E772FB290DC29F00AEE370 /* Rating.storyboard */,
 			);
 			path = Rating;
 			sourceTree = "<group>";
@@ -218,6 +229,15 @@
 				153DAFEB28F60A5500C6555A /* NavigationController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		15440B4729145485000960ED /* view */ = {
+			isa = PBXGroup;
+			children = (
+				15440B482914550C000960ED /* RatingTableViewCell.swift */,
+				15440B492914550C000960ED /* RatingTableViewCell.xib */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		1546E20F28FACA2B00960BE8 /* Manager */ = {
@@ -364,6 +384,8 @@
 				1546E21B28FB2CDF00960BE8 /* FavoritesIconCell.xib in Resources */,
 				153DAFC128F603AC00C6555A /* LaunchScreen.storyboard in Resources */,
 				153DAFBE28F603AC00C6555A /* Assets.xcassets in Resources */,
+				15E772FC290DC29F00AEE370 /* Rating.storyboard in Resources */,
+				15440B4B2914550C000960ED /* RatingTableViewCell.xib in Resources */,
 				15C8534028F898A0001D70FE /* Favorites.storyboard in Resources */,
 				153DAFBC28F603AA00C6555A /* Main.storyboard in Resources */,
 			);
@@ -391,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				153DAFB928F603AA00C6555A /* ViewController.swift in Sources */,
+				15E772FA290DC25B00AEE370 /* RatingViewModel.swift in Sources */,
 				153DAFEA28F608E900C6555A /* TabBarController.swift in Sources */,
 				157367682908600F00C3CBDA /* DetailsViewModel.swift in Sources */,
 				1546E21A28FB2CDF00960BE8 /* FavoritesIconCell.swift in Sources */,
@@ -402,6 +425,7 @@
 				1532628228F741FE0048277A /* RatingViewControllers.swift in Sources */,
 				1532627F28F741C80048277A /* FavoritesViewControllers.swift in Sources */,
 				1532628428F74ADD0048277A /* Extension+UIKIT.swift in Sources */,
+				15440B4A2914550C000960ED /* RatingTableViewCell.swift in Sources */,
 				1573676429085EEA00C3CBDA /* DetailsViewController.swift in Sources */,
 				1546E21428FAD5A400960BE8 /* IconManager.swift in Sources */,
 				153DAFB728F603AA00C6555A /* SceneDelegate.swift in Sources */,
