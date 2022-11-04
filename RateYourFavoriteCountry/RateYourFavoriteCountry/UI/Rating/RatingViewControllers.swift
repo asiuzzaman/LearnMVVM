@@ -8,6 +8,7 @@
 import UIKit
 
 final class RatingViewControllers: UIViewController {
+    
     static func makeViewController() -> RatingViewControllers? {
         let viewController = UIStoryboard(name: "Ratings", bundle: .main)
             .instantiateViewController(withIdentifier: "RatingsViewController")
