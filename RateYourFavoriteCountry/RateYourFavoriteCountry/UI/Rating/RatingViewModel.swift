@@ -5,7 +5,7 @@
 //  Created by Md. Asiuzzaman on 30/10/22.
 //
 
-import Foundation
+import UIKit
 
 protocol RatingViewModelDelegate: AnyObject {
     var numberOfSection: Int { get }
@@ -42,11 +42,11 @@ extension RatingViewModel: RatingViewModelDelegate {
     
     func cellDataForItem(at indexPath: IndexPath) -> (Icon, Icon.Rating)? {
         let index = indexPath.row
-        
-        guard let index < availableIcons.count else {
+
+        guard index < availableIcons.count else {
             return nil
         }
-        
+
         let icon = availableIcons[index]
         return (icon, iconManager.rating(icon: icon))
     }
