@@ -33,6 +33,8 @@ final class RatingViewControllers: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        parent?.navigationItem.title = "Vote"
+        refresh()
     }
 }
 
@@ -40,7 +42,15 @@ extension RatingViewControllers: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
+        viewModel.numberOfItems(in: section)
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
         viewModel.numberOfSection
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        viewModel.heightForItem(at: indexPath)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -55,7 +65,7 @@ extension RatingViewControllers: UITableViewDataSource {
             return UITableViewCell()
         }
 
-       // cell.prepare(with: data)
+        cell.prepare(with: data)
         return cell
                 
     }
@@ -64,6 +74,23 @@ extension RatingViewControllers: UITableViewDataSource {
 }
 extension RatingViewControllers: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cellData = viewModel.cellDataForItem(at: indexPath) else {
+            return
+        }
+        
+        let destinationViewController = DetailsViewController.makeViewController (
+            icon: cellData.0,
+            allowRating: true
+        )
+        
+        guard let detailsViewController = destinationViewController else { return }
+        
+        navigationController?.pushViewController(detailsViewController, animated: true)
+        
+        
+    }
+   
 }
 
 private extension RatingViewControllers {
